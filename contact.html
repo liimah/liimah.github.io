@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="stickynav">
+        <ul>
+            <li>~«</li>
+            <li><a href="index.html">Aenean pretium</a></li>
+            <li><a href="about.html">Praesent non</a></li>
+            <li><a href="excerpt.html">Quisque in</a></li>
+            <li><a href="contact.html">Class aptent</a></li>
+            <li>»~</li>
+        </ul>
+    </nav>
+
+    <div class="wrapper-form">
+
+        <header class="header-form">
+            <h1>Any questions?</h1>
+            <h4>Get in touch!</h4>
+            <p>Donec dictum nunc et vestibulum consequat. Maecenas nec sapien ut est pellentesque dapibus. Sed libero ex, rutrum et mollis vitae, posuere in dolor. Nunc.</p>
+        </header>
+
+        <form action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES" method="POST">
+            <input type="hidden" id="hidden" name="send_to" value="liehmart@zoho.eu">
+
+            <fieldset class="fieldset-form">
+                <legend class="legend-form">Your contact information</legend>
+                <label for="name">*first name</label>
+                <input type="text" id="name" name="name" placeholder="name">
+
+                <label for="name">*last name</label>
+                <input type="text" id="name" name="name" placeholder="name">
+
+                <label>*email</label>
+                <input type="email" id="email" name="email" placeholder="email">
+
+                <label for="abtype">*country</label>
+                <select id="abtype" name="abtype">
+						<option selected>Select one...</option>
+                    </select>
+
+                <label for="phone">*phone number</label>
+                <input type="tel" id="phone" name="phone" placeholder="phonenumber">
+
+                <label id="comments" name="comments">*message</label>
+                <textarea></textarea>
+
+                <label>
+						<input type="checkbox" value="subscribe" name="subscribe" checked> Add me to your email list!
+					</label>
+            </fieldset>
+            <hr>
+            <footer>
+                <h3>Our location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d90325.28539613367!2d-93.33151812543683!3d44.97079704339309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b333909377bbbd%3A0x939fc9842f7aee07!2sMinneapolis%2C+MN!5e0!3m2!1sen!2sus!4v1540581288890"
+                    width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </footer>
+    </div>
+</body>
+<script href="js/javascript.js"></script>
+
+</html>
