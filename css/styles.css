@@ -41,6 +41,8 @@ h6 {
 }
 
 .centerwrap h6 {
+    display: flex;
+    float: right;
     margin: 0;
     padding-top: 0.35rem;
     font-weight: 100;
