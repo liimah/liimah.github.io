@@ -5,37 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/styles.css">
     <title>index</title>
 </head>
 
 <body>
-    <div id="navbar">
-        <ul>
-            <li class="navheader">liimah</li>
-            <a href="index.html">
-                <li class="active">about</li>
-            </a>
-            <a href="projects.html">
-                <li>projects</li>
-            </a>
-            <a href="contact.html">
-                <li>contact</li>
-            </a>
-            <a href="blog.html">
-                <li>blog</li>
-            </a>
-        </ul>
+
+    <div class="head-container">
+        <header class="index-header">
+            <img src="img/picrew_24013.png" class="avatar">
+            <h1>about</h1>
+        </header>
     </div>
 
-    <div class="wrapper">
-        <header>
-            <h1>placeholder</h1>
-        </header>
+    <main class="container">
+        <div class="first-div">
+            <div id="navbar">
+                <ul>
+                    <li class="navheader">liimah</li>
+                    <a href="index.html">
+                        <li class="active">about</li>
+                    </a>
+                    <a href="projects.html">
+                        <li>projects</li>
+                    </a>
+                    <a href="contact.html">
+                        <li>contact</li>
+                    </a>
+                    <a href="blog.html">
+                        <li>blog</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
 
-        <main class="cell">
-
+        <div class="second-div">
             <section class="column">
                 <img src="https://picsum.photos/300/400" alt="yatta!">
             </section>
@@ -58,15 +64,16 @@
                 <h4>the picture of dorian gray</h4>
                 <p>"life has everything in store for you, dorian. there is nothing that you, with your extraordinary good looks, will not be able to do."</p>
             </section>
+        </div>
 
-            <!-- <section class="test">
-                <img src="img/thinkingNico.png">
-            </section> -->
+        <div class="third-div">
 
-        </main>
-    </div>
+        </div>
+    </main>
 
 </body>
-<script href="js/script.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/popmotion@8.5.0/dist/popmotion.global.min.js"></script>
+<script src="./javascript.js"></script>
 
 </html>
